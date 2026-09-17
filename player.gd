@@ -21,6 +21,7 @@ func do_die():
 func do_gravity(delta: float):
 	if not is_on_floor():
 		velocity += get_gravity() * delta
+	else:
 		respawning = false
 
 func do_input():
