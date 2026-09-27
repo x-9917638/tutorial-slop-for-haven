@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://qoqlqyifuqrc"]
 
-[ext_resource type="Texture2D" uid="uid://b8863bif5sou8" path="res://icon.svg" id="1_0xm2m"]
 [ext_resource type="Script" uid="uid://bmylt43s0kb0g" path="res://player.gd" id="1_h2yge"]
+[ext_resource type="Texture2D" uid="uid://bksxj74uvkmuu" path="res://tiles/eyeball_01.png" id="2_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://didrywgpbetd4" path="res://green.png" id="2_h2yge"]
 [ext_resource type="Texture2D" uid="uid://b1hfly6yrvv7p" path="res://flag.svg" id="4_1bvp3"]
 
@@ -2031,8 +2031,9 @@ collision_mask = 7
 script = ExtResource("1_h2yge")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=403034092]
-scale = Vector2(0.125, 0.125)
-texture = ExtResource("1_0xm2m")
+position = Vector2(0, 0.5)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_1bvp3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1988680800]
 position = Vector2(0, 0.25)
