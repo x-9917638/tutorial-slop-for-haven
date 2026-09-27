@@ -3013,6 +3013,7 @@ offset_top = 458.0
 offset_right = 1152.0
 offset_bottom = 490.0
 scale = Vector2(0.8, 0.8)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
 text = "You Win"
 scroll_active = false
 
