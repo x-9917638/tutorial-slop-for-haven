@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://didrywgpbetd4" path="res://green.png" id="2_h2yge"]
 [ext_resource type="Texture2D" uid="uid://b1hfly6yrvv7p" path="res://flag.svg" id="4_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://de5nxd3o4k2nf" path="res://Assets/Tiles.png" id="4_lquwl"]
+[ext_resource type="Texture2D" uid="uid://bkfjiay534j32" path="res://Background/Background.png" id="6_7mycd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r5tpr"]
 size = Vector2(58, 58.5)
@@ -3014,3 +3015,20 @@ offset_bottom = 490.0
 scale = Vector2(0.8, 0.8)
 text = "You Win"
 scroll_active = false
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1650949162]
+layer = -1
+
+[node name="Parallax2D" type="Parallax2D" parent="CanvasLayer" unique_id=685678575]
+scroll_offset = Vector2(75, 595)
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Parallax2D" unique_id=1545430350]
+offset_left = -226.0
+offset_top = -129.0
+offset_right = 254.0
+offset_bottom = 143.0
+offset_transform_enabled = true
+offset_transform_scale = Vector2(5, 5)
+texture = ExtResource("6_7mycd")
+stretch_mode = 4
+metadata/_edit_use_anchors_ = true
